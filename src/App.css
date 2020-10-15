@@ -1,0 +1,105 @@
+
+.root {display: flex;
+flex-direction: column;
+
+
+}
+
+
+div > img {
+
+  margin-bottom:20px;
+  margin-top: 20px;
+
+} 
+
+.mainDiv {
+  border:10px solid greenyellow;
+  display: flex;
+    flex-direction: column;
+    display: block;
+    text-align: center;
+  padding:10px;
+  
+  
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url(./images/background1.jpg);
+ 
+}
+
+
+
+.daily {
+  color: greenyellow;
+  font-size: 100px;
+  text-shadow: 2px 2px white;
+  
+}
+
+.cious {
+  color: black;
+  text-shadow: 2px 2px white;
+}
+
+.logo:hover {
+  background-color: lightgrey;
+  display: inline-block;
+}
+
+.inputDiv {
+  
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgrey;
+}
+
+.description {
+  flex:1;
+  border-right: 2px solid green;
+  padding: 20px;
+
+}
+
+.ingredients {
+  flex:1;
+  border-right: 2px solid green;
+  padding: 20px;
+}
+
+.howToPrepare {
+  flex:1;
+  padding: 20px;
+}
+
+.allRecipes {
+  display: flex;
+
+}
+
+.Link{
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.LinkDaily:hover
+{
+  text-decoration: none;
+}
+
+
+
+
+.Link:hover {
+  background-color: greenyellow;
+  text-decoration: none;
+}
+
+
